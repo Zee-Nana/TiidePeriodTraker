@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Log In</title>
+    <link rel="stylesheet" href="./index2.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div id="app2">
+      <h2 style="padding-left: 530px; padding-top: 90px;">TIIDE Period Tracker</h2>
+      <div id="container">
+        <form @submit.prevent="handleSubmit">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              class="design"
+              v-model="email"
+            />
+          </div>
+          <div class="form-group">
+            <label for="">Password</label>
+            <input
+              type="password"
+              class="form-control"
+              id="password"
+              class="design"
+              v-model="password"
+            />
+          </div>
+          <button type="submit" class="btn btn-danger" id="des">Log in</button>
+          <div id="de">
+            <p>Not registered? <a href="index.html">Create an account</a></p>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

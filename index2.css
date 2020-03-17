@@ -1,0 +1,27 @@
+#app2{
+    background-color:#ffb7c5;
+    height: 41em;
+}
+#container{
+    background-color: whitesmoke;
+    width: 40%;
+    margin: 0 auto;
+    padding-left: 30px;
+    height: 19em;
+    margin-top: 10px;
+    padding-top: 20px;
+    border: 2px solid whitesmoke;
+    border-radius: 30px;
+    padding-right: 19px;
+}
+.design{
+    width: 200px;
+}
+#des{
+    width: 300px;
+    margin-left: 85px;
+    background-color: #ee93a5;
+}
+ #de{
+    padding-left: 100px;
+ }

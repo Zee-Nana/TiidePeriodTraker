@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <title>Create Account</title>
+  </head>
+  <body>
+    <div id="app">
+      <h2 style="text-align: center; padding-top: 30px;">Create an Account</h2>
+      <div id="container">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">First Name</label>
+            <input type="text" class="form-control" id="design" />
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Last Name</label>
+            <input type="text" class="form-control" id="design" />
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Gender</label>
+            <input type="text" class="form-control" id="design" />
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Date of Birth</label>
+            <input type="date" class="form-control" id="design" />
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="design" />
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="design" />
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Re-Enter Password</label>
+            <input type="password" class="form-control" id="design" />
+          </div>
+
+          <button type="submit" class="btn btn-danger" @click="submit">
+            Submit
+          </button>
+          <div id="de">
+            <p>Already have an account? <a href="index2.html">Login</a></p>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

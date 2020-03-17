@@ -1,0 +1,22 @@
+#app {
+  background-color: #ffb7c5;
+  height: 50em;
+}
+#container {
+  background-color: whitesmoke;
+  width: 30%;
+  margin: 0 auto;
+  padding-left: 30px;
+  height: 45em;
+  margin-top: 20px;
+  padding-top: 20px;
+  border: 2px solid whitesmoke;
+
+  border-radius: 30px;
+}
+#design {
+  width: 300px;
+}
+#header {
+  margin: 0 auto;
+}
